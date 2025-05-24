@@ -31,7 +31,6 @@
     nav a.nav-link:hover {
       color: #90e0ef;
     }
-    /* Logo mais grossinha */
     .navbar-brand {
       font-weight: 700;
     }
@@ -98,11 +97,21 @@
       height: 100%;
     }
     @media (max-width: 576px) {
+      header {
+        padding: 2rem 1rem;
+      }
       header h1 {
         font-size: 1.8rem;
       }
       .section {
-        padding: 1rem;
+        padding: 1rem 0.5rem;
+      }
+      .card-body {
+        padding: 0.5rem;
+      }
+      .card-img-bg {
+        aspect-ratio: unset;
+        height: 200px;
       }
     }
     form {
@@ -155,7 +164,7 @@
     <section class="section" id="ministerios">
       <h2>Alguns ministérios</h2>
       <div class="row g-3">
-        <div class="col-md-4">
+        <div class="col-12 col-md-4">
           <div class="card">
             <div class="card-img-bg" style="background-image: url('https://raw.githubusercontent.com/REDEIBNE/fotolouvor/refs/heads/main/foto%20louvor.jpg');"></div>
             <div class="card-body">
@@ -164,7 +173,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-12 col-md-4">
           <div class="card">
             <div class="card-img-bg" style="background-image: url('https://raw.githubusercontent.com/REDEIBNE/foto-jiovens/refs/heads/main/jovens.jpg');"></div>
             <div class="card-body">
@@ -173,7 +182,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-12 col-md-4">
           <div class="card">
             <div class="card-img-bg" style="background-image: url('https://raw.githubusercontent.com/REDEIBNE/fotok/refs/heads/main/crian%C3%A7as.jpg');"></div>
             <div class="card-body">
